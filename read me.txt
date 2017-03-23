@@ -1,0 +1,12 @@
+
+-VolumeSlicer enables users to load 3D volumes, either from dicom images or raw 3D matrix in .mat file, and selecting an arbitrary slice by providing the required transformations 
+(translations and rotations) through a friendly user interface. It also visualizes the loaded volumes with planes indicates the slices positions na dorientations with respect to the volume.
+Multiple slices can also be manipulated simulaneously by freezing one slice and transform the other one. The provided GUI enables exporting DICOM and raw .mat files at the same orienation of the 
+new slices by fast 3D inerpolation.
+
+-The GUI is built using GUIDE v2.5 and test on MatLab 2014b and 2016b
+
+-Start the GUI by runing 'VolumeSlicer.m'
+
+-- Created by Hossam El-Rewaidy, March 2017.   
+ 
